@@ -78,7 +78,7 @@ function LoginForm() {
 
         try {
             // Send a POST request to the backend registration endpoint
-            const response = await axios.post('http://localhost:5000/api/register', {
+            const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/register`, {
                 username: username,
                 password: password
             }, {
