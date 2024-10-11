@@ -1,0 +1,49 @@
+/* src/styles/LoginForm.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-title {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-custom {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.toggle-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.toggle-link p {
+    margin: 0;
+}
+
+.toggle-link .btn-link {
+    padding: 0;
+    font-weight: bold;
+}
+
